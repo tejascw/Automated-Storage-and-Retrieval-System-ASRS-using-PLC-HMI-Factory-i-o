@@ -53,7 +53,7 @@ The main goal of this project is to simulate an **automated warehouse cell syste
 
 ## 🖥️ HMI Interface
 
-![HMI Interface](./ASRS.jpg)
+![HMI Interface](https://github.com/tejascw/Automated-Storage-and-Retrieval-System-ASRS-using-PLC-HMI-Factory-i-o/blob/main/ASRS%20HMI.jpg)
 
 - Built using **GT Designer3 (GOT2000)**
 - Features:
@@ -67,7 +67,7 @@ The main goal of this project is to simulate an **automated warehouse cell syste
 
 ## 🏭 Factory I/O Simulation
 
-![Factory I/O Environment](./72b9c04a-1472-45aa-ba20-c506a9595b7e.png)
+![Factory I/O Environment](https://github.com/tejascw/Automated-Storage-and-Retrieval-System-ASRS-using-PLC-HMI-Factory-i-o/blob/main/ASRS%202.jpg)
 
 - 3D model of a warehouse with racks, pallets, and conveyor belts.
 - Crane SC1 moves pallets from the conveyor to storage cells.
