@@ -1,6 +1,38 @@
 
 # 📦 Automated Storage and Retrieval System (ASRS) using PLC, HMI & Factory I/O
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://drive.google.com/drive/u/0/folders/1Bc2FBhvjG0uDNRdFsazBjdkv2YrzdnOJ
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## 📘 Introduction
 
 An **Automated Storage and Retrieval System (ASRS)** is a computer-controlled system used in warehouses and manufacturing facilities to automatically place and retrieve loads from predefined storage locations. These systems are designed to increase efficiency, reduce labor costs, improve accuracy, and optimize inventory management.
