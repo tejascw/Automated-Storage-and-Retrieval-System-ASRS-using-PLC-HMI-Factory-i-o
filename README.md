@@ -113,7 +113,12 @@ The main goal of this project is to simulate an **automated warehouse cell syste
 
 ## 🖥️ HMI Interface
 
-![HMI Interface](https://github.com/tejascw/Automated-Storage-and-Retrieval-System-ASRS-using-PLC-HMI-Factory-i-o/blob/main/ASRS%20HMI.jpg)
+
+| HMI(Buld_up_layout)  |HMI(Simulation)                |
+|--------------------|-------------------------------------|
+|![HMI Interface](https://github.com/tejascw/Automated-Storage-and-Retrieval-System-ASRS-using-PLC-HMI-Factory-i-o/blob/main/ASRS_HMI_PANNEL_BEFORE_SIMULATION.jpg)
+   |(https://github.com/tejascw/Automated-Storage-and-Retrieval-System-ASRS-using-PLC-HMI-Factory-i-o/blob/main/ASRS_HMI_PANNEL_AFTER_SIMULATION.jpg)|   
+  
 
 - Built using **GT Designer3 (GOT2000)**
 - Features:
@@ -127,16 +132,63 @@ The main goal of this project is to simulate an **automated warehouse cell syste
 
 ## 🏭 Factory I/O Simulation
 
-![Factory I/O Environment](https://github.com/tejascw/Automated-Storage-and-Retrieval-System-ASRS-using-PLC-HMI-Factory-i-o/blob/main/ASRS%202.jpg)
 
-- 3D model of a warehouse with racks, pallets, and conveyor belts.
+| Images | Description             |
+|--------------------|-------------------------------------|
+
+|![Factory I/O Environment](https://github.com/tejascw/Automated-Storage-and-Retrieval-System-ASRS-using-PLC-HMI-Factory-i-o/blob/main/ASRS%202.jpg)|- 3D model of a warehouse with racks, pallets, and conveyor belts.
 - Crane SC1 moves pallets from the conveyor to storage cells.
 - Crane SC2 retrieves pallets and places them on the output conveyor.
-- Integrated via **OPC communication** with the PLC controller.
+- Integrated via **OPC communication** with the PLC controller.|
+|![Factory I/O Device](https://github.com/tejascw/Automated-Storage-and-Retrieval-System-ASRS-using-PLC-HMI-Factory-i-o/blob/main/ASRS_Factory%20i_o%20Device%20Input_Output%20conections.jpg)| This image shows the device Input and Output pin connections in Factory I/O.
+
+Inputs (left side – Sensors/Buttons):
+These are signals acquired from the system, such as sensors, limit switches, and push buttons. They provide real-time feedback to the PLC/Controller. For example:
+
+Emergency Stop
+
+Start/Stop Buttons
+
+Limit switches (Left/Right, Middle, etc.)
+
+Position sensors (Load Sensor, Exit Sensor, Unloading Sensor)
+
+Movement status (SC1 Moving X, SC2 Moving Z, etc.)
+
+Outputs (right side – Actuators):
+These are control signals sent from the PLC/Controller to actuators that perform physical actions in the system. For example:
+
+SC1 / SC2 Lift SET
+
+Load/Unload Conveyor
+
+Roller Conveyors
+
+Target Position control
+
+Start/Stop Indicator Lights
+
+Middle Section (Server Mapping via MX OPC Configurator):
+This shows the OPC server mapping (Mitsubishi MXOPC). Each input and output from Factory I/O is linked to its corresponding PLC tag address. The mapping ensures that sensor feedback (inputs) and actuator commands (outputs) are correctly exchanged between Factory I/O and the PLC.
+
+So in short:
+
+Inputs = acquiring data from sensors & buttons (feedback to PLC).
+
+Outputs = actuating data to actuators (commands from PLC to perform actions).
+
+Middle = OPC mapping layer where Factory I/O signals are connected to PLC addresses. |
+
+
+
+
+
 
 ---
 
 ## 📋 PLC Programming Highlights
+
+[PLC_LADDER_LOGIC_PROGRAMMING](https://github.com/tejascw/Automated-Storage-and-Retrieval-System-ASRS-using-PLC-HMI-Factory-i-o/blob/main/PLC_LADDER_LOGIC_PROGRAMMING.jpg)
 
 The ladder logic was developed using **GX Works3** and exported as an HTML file. Some key sections include:
 
