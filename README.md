@@ -116,8 +116,7 @@ The main goal of this project is to simulate an **automated warehouse cell syste
 
 | HMI(Buld_up_layout)  |HMI(Simulation)                |
 |--------------------|-------------------------------------|
-|![HMI Interface](https://github.com/tejascw/Automated-Storage-and-Retrieval-System-ASRS-using-PLC-HMI-Factory-i-o/blob/main/ASRS_HMI_PANNEL_BEFORE_SIMULATION.jpg)
-   |(https://github.com/tejascw/Automated-Storage-and-Retrieval-System-ASRS-using-PLC-HMI-Factory-i-o/blob/main/ASRS_HMI_PANNEL_AFTER_SIMULATION.jpg)|   
+|![HMI Interface](https://github.com/tejascw/Automated-Storage-and-Retrieval-System-ASRS-using-PLC-HMI-Factory-i-o/blob/main/ASRS_HMI_PANNEL_BEFORE_SIMULATION.jpg)|(https://github.com/tejascw/Automated-Storage-and-Retrieval-System-ASRS-using-PLC-HMI-Factory-i-o/blob/main/ASRS_HMI_PANNEL_AFTER_SIMULATION.jpg)|   
   
 
 - Built using **GT Designer3 (GOT2000)**
@@ -136,11 +135,11 @@ The main goal of this project is to simulate an **automated warehouse cell syste
 | Images | Description             |
 |--------------------|-------------------------------------|
 
-|![Factory I/O Environment](https://github.com/tejascw/Automated-Storage-and-Retrieval-System-ASRS-using-PLC-HMI-Factory-i-o/blob/main/ASRS%202.jpg)|- 3D model of a warehouse with racks, pallets, and conveyor belts.
+| ![Factory I/O Environment](https://github.com/tejascw/Automated-Storage-and-Retrieval-System-ASRS-using-PLC-HMI-Factory-i-o/blob/main/ASRS%202.jpg) |- 3D model of a warehouse with racks, pallets, and conveyor belts.
 - Crane SC1 moves pallets from the conveyor to storage cells.
 - Crane SC2 retrieves pallets and places them on the output conveyor.
 - Integrated via **OPC communication** with the PLC controller.|
-|![Factory I/O Device](https://github.com/tejascw/Automated-Storage-and-Retrieval-System-ASRS-using-PLC-HMI-Factory-i-o/blob/main/ASRS_Factory%20i_o%20Device%20Input_Output%20conections.jpg)| This image shows the device Input and Output pin connections in Factory I/O.
+| ![Factory I/O Device](https://github.com/tejascw/Automated-Storage-and-Retrieval-System-ASRS-using-PLC-HMI-Factory-i-o/blob/main/ASRS_Factory%20i_o%20Device%20Input_Output%20conections.jpg) |  This image shows the device Input and Output pin connections in Factory I/O.
 
 Inputs (left side – Sensors/Buttons):
 These are signals acquired from the system, such as sensors, limit switches, and push buttons. They provide real-time feedback to the PLC/Controller. For example:
