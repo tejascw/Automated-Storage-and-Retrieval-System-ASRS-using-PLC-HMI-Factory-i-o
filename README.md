@@ -33,8 +33,8 @@ This project demonstrates a **fully simulated ASRS** system created using:
 | 📘 PDF | Project report/documentation | [ASRS_Project_Report.pdf](https://github.com/user-attachments/files/21835509/ASRS.Project.plc.ladder.logic.file.pdf.pdf) |
 | 🪢 GX Works3 File | PLC Ladder Logic Program | [ASRS_PLC_Ladder.gx3](https://github.com/tejascw/Automated-Storage-and-Retrieval-System-ASRS-using-PLC-HMI-Factory-i-o/blob/main/ASRS12_HMI.GTX) |
 | 🖥️ HMI File | HMI Design (GT Designer3) | [ASRS_HMI.gtx](https://github.com/tejascw/Automated-Storage-and-Retrieval-System-ASRS-using-PLC-HMI-Factory-i-o/blob/main/ASRS12_HMI.GTX) |
-| 🔗 MX OPC File | OPC server mapping | [ASRS_MXOPC.mxc](./ASRS_MXOPC.mxc) |
-| 🏭 Factory I/O File | ASRS 3D Simulation | [ASRS_Factory_IO.fio](./ASRS_Factory_IO.fio) |
+| 🔗 MX OPC File | OPC server mapping | [ASRS_MXOPC.mxc](https://github.com/tejascw/Automated-Storage-and-Retrieval-System-ASRS-using-PLC-HMI-Factory-i-o/blob/main/ASRS12.ldb) |
+| 🏭 Factory I/O File | ASRS 3D Simulation | [ASRS_Factory_IO.fio](https://github.com/tejascw/Automated-Storage-and-Retrieval-System-ASRS-using-PLC-HMI-Factory-i-o/blob/main/ASRS1.factoryio) |
 | 📊 Excel File | ASRS Programming Data Sheet | [ASRS_Data.xlsx](https://github.com/tejascw/Automated-Storage-and-Retrieval-System-ASRS-using-PLC-HMI-Factory-i-o/blob/main/ASRS%2012.xml) |
 | 📄 Text File | Extra Notes & Configurations | [ASRS_Notes.txt](https://github.com/tejascw/Automated-Storage-and-Retrieval-System-ASRS-using-PLC-HMI-Factory-i-o/blob/main/ASRS%2012.txt) |
 
