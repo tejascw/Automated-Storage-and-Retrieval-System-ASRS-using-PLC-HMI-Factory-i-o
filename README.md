@@ -116,7 +116,7 @@ The main goal of this project is to simulate an **automated warehouse cell syste
 
 | HMI(Buld_up_layout)  |HMI(Simulation)                |
 |--------------------|-------------------------------------|
-|![HMI Interface](https://github.com/tejascw/Automated-Storage-and-Retrieval-System-ASRS-using-PLC-HMI-Factory-i-o/blob/main/ASRS_HMI_PANNEL_BEFORE_SIMULATION.jpg)|(https://github.com/tejascw/Automated-Storage-and-Retrieval-System-ASRS-using-PLC-HMI-Factory-i-o/blob/main/ASRS_HMI_PANNEL_AFTER_SIMULATION.jpg)|   
+|![HMI Interface](https://github.com/tejascw/Automated-Storage-and-Retrieval-System-ASRS-using-PLC-HMI-Factory-i-o/blob/main/ASRS_HMI_PANNEL_BEFORE_SIMULATION.jpg)|![ASRS_HMI_PANNEL_AFTER_SIMULATION](https://github.com/tejascw/Automated-Storage-and-Retrieval-System-ASRS-using-PLC-HMI-Factory-i-o/blob/main/ASRS_HMI_PANNEL_AFTER_SIMULATION.jpg) |   
   
 
 - Built using **GT Designer3 (GOT2000)**
@@ -132,55 +132,10 @@ The main goal of this project is to simulate an **automated warehouse cell syste
 ## 🏭 Factory I/O Simulation
 
 
-| Images | Description             |
+| Images | Description|
 |--------------------|-------------------------------------|
 
-| ![Factory I/O Environment](https://github.com/tejascw/Automated-Storage-and-Retrieval-System-ASRS-using-PLC-HMI-Factory-i-o/blob/main/ASRS%202.jpg) |- 3D model of a warehouse with racks, pallets, and conveyor belts.
-- Crane SC1 moves pallets from the conveyor to storage cells.
-- Crane SC2 retrieves pallets and places them on the output conveyor.
-- Integrated via **OPC communication** with the PLC controller.|
-| ![Factory I/O Device](https://github.com/tejascw/Automated-Storage-and-Retrieval-System-ASRS-using-PLC-HMI-Factory-i-o/blob/main/ASRS_Factory%20i_o%20Device%20Input_Output%20conections.jpg) |  This image shows the device Input and Output pin connections in Factory I/O.
-
-Inputs (left side – Sensors/Buttons):
-These are signals acquired from the system, such as sensors, limit switches, and push buttons. They provide real-time feedback to the PLC/Controller. For example:
-
-Emergency Stop
-
-Start/Stop Buttons
-
-Limit switches (Left/Right, Middle, etc.)
-
-Position sensors (Load Sensor, Exit Sensor, Unloading Sensor)
-
-Movement status (SC1 Moving X, SC2 Moving Z, etc.)
-
-Outputs (right side – Actuators):
-These are control signals sent from the PLC/Controller to actuators that perform physical actions in the system. For example:
-
-SC1 / SC2 Lift SET
-
-Load/Unload Conveyor
-
-Roller Conveyors
-
-Target Position control
-
-Start/Stop Indicator Lights
-
-Middle Section (Server Mapping via MX OPC Configurator):
-This shows the OPC server mapping (Mitsubishi MXOPC). Each input and output from Factory I/O is linked to its corresponding PLC tag address. The mapping ensures that sensor feedback (inputs) and actuator commands (outputs) are correctly exchanged between Factory I/O and the PLC.
-
-So in short:
-
-Inputs = acquiring data from sensors & buttons (feedback to PLC).
-
-Outputs = actuating data to actuators (commands from PLC to perform actions).
-
-Middle = OPC mapping layer where Factory I/O signals are connected to PLC addresses. |
-
-
-
-
+| ![Factory I/O Environment](https://github.com/tejascw/Automated-Storage-and-Retrieval-System-ASRS-using-PLC-HMI-Factory-i-o/blob/main/ASRS%202.jpg) | 3D model of a warehouse with racks, pallets, and conveyor belts. Crane SC1 moves pallets from the conveyor to storage cells. Crane SC2 retrieves pallets and places them on the output conveyor. Integrated via **OPC communication** with the PLC controller.| ![Factory I/O Device](https://github.com/tejascw/Automated-Storage-and-Retrieval-System-ASRS-using-PLC-HMI-Factory-i-o/blob/main/ASRS_Factory%20i_o%20Device%20Input_Output%20conections.jpg) | This image represents the device input and output pin connections in Factory I/O. On the left side are inputs, which consist of signals acquired from sensors, limit switches, and push buttons that provide real-time feedback to the PLC or controller (e.g., emergency stop, start/stop buttons, load/unload sensors, and movement status like SC1 Moving X or SC2 Moving Z). On the right side are outputs, which are control signals sent from the PLC to actuators that execute physical actions in the system, such as operating SC1/SC2 lifts, controlling load/unload conveyors, roller conveyors, target positioning, or activating indicator lights. The middle section represents the OPC mapping layer, where Factory I/O signals are linked to corresponding PLC tag addresses through the MX OPC Configurator. This mapping ensures proper communication, so that input feedback from the system reaches the PLC and output commands from the PLC drive the actuators. In short, inputs = feedback from the system, outputs = commands to the system, and the middle = the communication bridge via OPC mapping.|
 
 
 ---
