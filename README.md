@@ -8,12 +8,12 @@
 
 
 
+---
 
 
 
 
-
-## Video Demonstration 
+## 🎥 Demonstration Video
 
 [ASRS Project Video Demonstration](https://drive.google.com/drive/u/0/folders/1Bc2FBhvjG0uDNRdFsazBjdkv2YrzdnOJ)
 
@@ -102,6 +102,25 @@ This project demonstrates a **fully simulated ASRS** system created using:
 
 ---
 
+
+## 📋 PLC Programming Highlights
+
+[PLC_LADDER_LOGIC_PROGRAMMING](https://github.com/tejascw/Automated-Storage-and-Retrieval-System-ASRS-using-PLC-HMI-Factory-i-o/blob/main/PLC_LADDER_LOGIC_PROGRAMMING.jpg)
+
+The ladder logic was developed using **GX Works3** and exported as an HTML file. Some key sections include:
+
+- **Main Power Switching**
+- **Crane SC1 & SC2 Power & Motion Memory**
+- **Universal Reset Logic**
+- **Emergency Stop Memory**
+- **Position Tracking with D-registers (e.g., D8, D9, D5, D6)**
+- **Calculation of filled/empty cells using counters and logic operations**
+- **Cell targeting via D100 (SC1) and D200 (SC2)**
+
+💡 PLC Code File: [`ASRS 12.html`](./ASRS%2012.html)
+
+---
+
 ## 🖥️ HMI Interface
 
 
@@ -133,24 +152,6 @@ This project demonstrates a **fully simulated ASRS** system created using:
 ![Factory I/O Device](https://github.com/tejascw/Automated-Storage-and-Retrieval-System-ASRS-using-PLC-HMI-Factory-i-o/blob/main/ASRS_Factory%20i_o%20Device%20Input_Output%20conections.jpg) 
 
 This image represents the device input and output pin connections in Factory I/O. On the left side are inputs, which consist of signals acquired from sensors, limit switches, and push buttons that provide real-time feedback to the PLC or controller (e.g., emergency stop, start/stop buttons, load/unload sensors, and movement status like SC1 Moving X or SC2 Moving Z). On the right side are outputs, which are control signals sent from the PLC to actuators that execute physical actions in the system, such as operating SC1/SC2 lifts, controlling load/unload conveyors, roller conveyors, target positioning, or activating indicator lights. The middle section represents the OPC mapping layer, where Factory I/O signals are linked to corresponding PLC tag addresses through the MX OPC Configurator. This mapping ensures proper communication, so that input feedback from the system reaches the PLC and output commands from the PLC drive the actuators. In short, inputs = feedback from the system, outputs = commands to the system, and the middle = the communication bridge via OPC mapping.
-
----
-
-## 📋 PLC Programming Highlights
-
-[PLC_LADDER_LOGIC_PROGRAMMING](https://github.com/tejascw/Automated-Storage-and-Retrieval-System-ASRS-using-PLC-HMI-Factory-i-o/blob/main/PLC_LADDER_LOGIC_PROGRAMMING.jpg)
-
-The ladder logic was developed using **GX Works3** and exported as an HTML file. Some key sections include:
-
-- **Main Power Switching**
-- **Crane SC1 & SC2 Power & Motion Memory**
-- **Universal Reset Logic**
-- **Emergency Stop Memory**
-- **Position Tracking with D-registers (e.g., D8, D9, D5, D6)**
-- **Calculation of filled/empty cells using counters and logic operations**
-- **Cell targeting via D100 (SC1) and D200 (SC2)**
-
-💡 PLC Code File: [`ASRS 12.html`](./ASRS%2012.html)
 
 ---
 
