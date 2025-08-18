@@ -8,12 +8,9 @@
 
 ## 🎥 Demonstration Video
 
-# High Quility
+### High Quility: [ASRS Project Video Demonstration(High Quility)](https://drive.google.com/file/d/1-7Q6NCkL28kWG8wdkUCiYDeVhbWZSSgc/view?usp=drive_link)
 
-[ASRS Project Video Demonstration(High Quility)](https://drive.google.com/drive/u/0/folders/1Bc2FBhvjG0uDNRdFsazBjdkv2YrzdnOJ)
-
-# Poor Quility
-[ASRS Project Video Demonstration(Poor Quility)](https://github.com/tejascw/Automated-Storage-and-Retrieval-System-ASRS-using-PLC-HMI-Factory-i-o/blob/main/ASRS_PROJECT_VIDEO.mp4)
+### Poor Quility: [ASRS Project Video Demonstration(Poor Quility)](https://github.com/tejascw/Automated-Storage-and-Retrieval-System-ASRS-using-PLC-HMI-Factory-i-o/blob/main/ASRS_PROJECT_VIDEO.mp4)
 
 
 ---
@@ -62,8 +59,6 @@ This project demonstrates a **fully simulated ASRS** system created using:
 
 ## 📋 PLC Programming Highlights
 
-[PLC_LADDER_LOGIC_PROGRAMMING](https://github.com/tejascw/Automated-Storage-and-Retrieval-System-ASRS-using-PLC-HMI-Factory-i-o/blob/main/PLC_LADDER_LOGIC_PROGRAMMING.jpg)
-
 The ladder logic was developed using **GX Works3** and exported as an HTML file. Some key sections include:
 
 - **Main Power Switching**
@@ -74,8 +69,8 @@ The ladder logic was developed using **GX Works3** and exported as an HTML file.
 - **Calculation of filled/empty cells using counters and logic operations**
 - **Cell targeting via D100 (SC1) and D200 (SC2)**
 
-💡 PLC Code File: | 📘 PDF | Project report/documentation | [ASRS_Project_Report.pdf](https://github.com/user-attachments/files/21835509/ASRS.Project.plc.ladder.logic.file.pdf.pdf) |
-| 🪢 GX Works3 File | PLC Ladder Logic Program | [ASRS_PLC_Ladder.gx3](https://github.com/tejascw/Automated-Storage-and-Retrieval-System-ASRS-using-PLC-HMI-Factory-i-o/blob/main/ASRS12_HMI.GTX) |
+💡 PLC Code File: [ASRS_Project_Report.pdf](https://github.com/user-attachments/files/21835509/ASRS.Project.plc.ladder.logic.file.pdf.pdf) 
+ [ASRS_PLC_Ladder.gx3](https://github.com/tejascw/Automated-Storage-and-Retrieval-System-ASRS-using-PLC-HMI-Factory-i-o/blob/main/ASRS12_HMI.GTX) 
 
 ---
 
