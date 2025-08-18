@@ -129,13 +129,6 @@ This image represents the device input and output pin connections in Factory I/O
 
 ---
 
-## 🧾 Key Features
-
-- Real-time monitoring and control of warehouse operations
-- Accurate cell tracking and position-based movement
-- Emergency stop and recovery logic
-- Seamless integration between PLC, HMI, and simulation software
-- Practical understanding of industrial automation flow
 
 ---
 
