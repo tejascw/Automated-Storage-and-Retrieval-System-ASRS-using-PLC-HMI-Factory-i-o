@@ -3,14 +3,7 @@
 
 
 
-
-
-
-
-
 ---
-
-
 
 
 ## 🎥 Demonstration Video
@@ -18,45 +11,7 @@
 [ASRS Project Video Demonstration](https://drive.google.com/drive/u/0/folders/1Bc2FBhvjG0uDNRdFsazBjdkv2YrzdnOJ)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 https://github.com/tejascw/Automated-Storage-and-Retrieval-System-ASRS-using-PLC-HMI-Factory-i-o/blob/main/ASRS_PROJECT_VIDEO.mp4
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ---
@@ -194,15 +149,6 @@ This image represents the device input and output pin connections in Factory I/O
 
 ---
 
-## 📎 Repository Contents
-
-| File | Description |
-|------|-------------|
-| `ASRS.jpg` | HMI interface screenshot |
-| `72b9c04a-1472-45aa-ba20-c506a9595b7e.png` | Factory I/O simulation screenshot |
-| `ASRS 12.html` | Exported ladder logic from GX Works3 |
-
----
 
 ## 📌 Future Enhancements
 
