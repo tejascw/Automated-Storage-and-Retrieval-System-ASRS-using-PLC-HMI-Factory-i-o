@@ -8,9 +8,9 @@
 
 ## 🎥 Demonstration Video
 
-### High Quility: [ASRS Project Video Demonstration(High Quility)](https://drive.google.com/file/d/1-7Q6NCkL28kWG8wdkUCiYDeVhbWZSSgc/view?usp=drive_link)
+### High Quility: [!ASRS Project Video Demonstration(High Quility)](https://drive.google.com/file/d/1-7Q6NCkL28kWG8wdkUCiYDeVhbWZSSgc/view?usp=drive_link)
 
-### Poor Quility: [ASRS Project Video Demonstration(Poor Quility)](https://github.com/tejascw/Automated-Storage-and-Retrieval-System-ASRS-using-PLC-HMI-Factory-i-o/blob/main/ASRS_PROJECT_VIDEO.mp4)
+### Poor Quility: [!ASRS Project Video Demonstration(Poor Quility)](https://github.com/tejascw/Automated-Storage-and-Retrieval-System-ASRS-using-PLC-HMI-Factory-i-o/blob/main/ASRS_PROJECT_VIDEO.mp4)
 
 
 ---
@@ -30,7 +30,7 @@ This project demonstrates a **fully simulated ASRS** system created using:
 | File Type | Description | File |
 |-----------|-------------|------|
 | 📘 PDF | Project report/documentation | [ASRS_Project_Report.pdf](https://github.com/user-attachments/files/21835509/ASRS.Project.plc.ladder.logic.file.pdf.pdf) |
-| 🪢 GX Works3 File | PLC Ladder Logic Program | [ASRS_PLC_Ladder.gx3](https://github.com/tejascw/Automated-Storage-and-Retrieval-System-ASRS-using-PLC-HMI-Factory-i-o/blob/main/ASRS12_HMI.GTX) |
+| 🪢 GX Works3 File | PLC Ladder Logic Program | [ASRS_PLC_Ladder.gx3](https://github.com/tejascw/Automated-Storage-and-Retrieval-System-ASRS-using-PLC-HMI-Factory-i-o/blob/main/ASRS_12.gx3) |
 | 🖥️ HMI File | HMI Design (GT Designer3) | [ASRS_HMI.gtx](https://github.com/tejascw/Automated-Storage-and-Retrieval-System-ASRS-using-PLC-HMI-Factory-i-o/blob/main/ASRS12_HMI.GTX) |
 | 🔗 MX OPC File | OPC server mapping | [ASRS_MXOPC.mxc](https://github.com/tejascw/Automated-Storage-and-Retrieval-System-ASRS-using-PLC-HMI-Factory-i-o/blob/main/ASRS12.ldb) |
 | 🏭 Factory I/O File | ASRS 3D Simulation | [ASRS_Factory_IO.fio](https://github.com/tejascw/Automated-Storage-and-Retrieval-System-ASRS-using-PLC-HMI-Factory-i-o/blob/main/ASRS1.factoryio) |
@@ -59,7 +59,9 @@ This project demonstrates a **fully simulated ASRS** system created using:
 
 ## 📋 PLC Programming Highlights
 
-The ladder logic was developed using **GX Works3** and exported as an HTML file. Some key sections include:
+The ladder logic was developed using **GX Works3** and exported as an gx3 file & pdf file. Some key sections include:
+
+![Gx Works3 file](https://github.com/tejascw/Automated-Storage-and-Retrieval-System-ASRS-using-PLC-HMI-Factory-i-o/blob/main/PLC_LADDER_LOGIC_PROGRAMMING.jpg)
 
 - **Main Power Switching**
 - **Crane SC1 & SC2 Power & Motion Memory**
@@ -69,15 +71,17 @@ The ladder logic was developed using **GX Works3** and exported as an HTML file.
 - **Calculation of filled/empty cells using counters and logic operations**
 - **Cell targeting via D100 (SC1) and D200 (SC2)**
 
-💡 PLC Code File: [ASRS_Project_Report.pdf](https://github.com/user-attachments/files/21835509/ASRS.Project.plc.ladder.logic.file.pdf.pdf) 
- [ASRS_PLC_Ladder.gx3](https://github.com/tejascw/Automated-Storage-and-Retrieval-System-ASRS-using-PLC-HMI-Factory-i-o/blob/main/ASRS12_HMI.GTX) 
+💡 PLC Code File:
+|--------------------|
+|[ASRS_Project_Report.pdf](https://github.com/user-attachments/files/21835509/ASRS.Project.plc.ladder.logic.file.pdf.pdf) |
+| [ASRS_PLC_Ladder.gx3](https://github.com/tejascw/Automated-Storage-and-Retrieval-System-ASRS-using-PLC-HMI-Factory-i-o/blob/main/ASRS_12.gx3) |
 
 ---
 
 ## 🖥️ HMI Interface
 
 
-| HMI(Buld_up_layout)  |HMI(Simulation)                |
+| HMI(Buld_up_layout)  |  HMI(Simulation)                |
 |--------------------|-------------------------------------|
 | ![HMI Interface](https://github.com/tejascw/Automated-Storage-and-Retrieval-System-ASRS-using-PLC-HMI-Factory-i-o/blob/main/ASRS_HMI_PANNEL_BEFORE_SIMULATION.jpg)|![ASRS_HMI_PANNEL_AFTER_SIMULATION](https://github.com/tejascw/Automated-Storage-and-Retrieval-System-ASRS-using-PLC-HMI-Factory-i-o/blob/main/ASRS_HMI_PANNEL_AFTER_SIMULATION.jpg) |   
   
@@ -107,6 +111,10 @@ The ladder logic was developed using **GX Works3** and exported as an HTML file.
 This image represents the device input and output pin connections in Factory I/O. On the left side are inputs, which consist of signals acquired from sensors, limit switches, and push buttons that provide real-time feedback to the PLC or controller (e.g., emergency stop, start/stop buttons, load/unload sensors, and movement status like SC1 Moving X or SC2 Moving Z). On the right side are outputs, which are control signals sent from the PLC to actuators that execute physical actions in the system, such as operating SC1/SC2 lifts, controlling load/unload conveyors, roller conveyors, target positioning, or activating indicator lights. The middle section represents the OPC mapping layer, where Factory I/O signals are linked to corresponding PLC tag addresses through the MX OPC Configurator. This mapping ensures proper communication, so that input feedback from the system reaches the PLC and output commands from the PLC drive the actuators. In short, inputs = feedback from the system, outputs = commands to the system, and the middle = the communication bridge via OPC mapping.
 
 ---
+
+## 📄Mx OPC Configurator
+
+![Mx opc Configuration](https://github.com/tejascw/Automated-Storage-and-Retrieval-System-ASRS-using-PLC-HMI-Factory-i-o/blob/main/MX%20OPC%20Configurator.jpg)
 
 ## 📌 Project Workflow
 
